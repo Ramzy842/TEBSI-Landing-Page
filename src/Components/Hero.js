@@ -6,7 +6,7 @@ import Underline from './Underline'
 const Hero = () => {
     const {navHeight} = GlobalContext()
     return (
-        <div className={`text-center`} style={{marginTop: `${navHeight}px`}}>
+        <div className='text-center md:h-screen' style={{marginTop: `${navHeight}px`}}>
             <h1 className='text-4xl mx-auto w-4/5 p-2  font-semibold '>Grow your audience. Improve your marketing <Underline position="mx-auto" /> </h1>
             <p className='w-full text-xl mt-2 font-medium px-3'>Learn where your audience struggle as they navigate your digital business. Pair this understanding of the individual experience with powerful quantitative insights to inform your digital decisions.</p>
             <div className='mt-8'>

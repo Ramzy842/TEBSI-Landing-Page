@@ -9,7 +9,7 @@ const Features = () => {
             <Underline position="" />
             <h3 className='text-3xl tracking-wide font-semibold w-11/12 mt-8'>Software for every kind of business</h3>
             <p className='text-xl tracking-normal my-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.</p>
-            <ul>
+            <ul className='grid sm:gap-2 md:gap-4 sm:grid-cols-2'>
                 {features.map(feature => {
                     const {id, image, title} = feature;
                     return <div key={id} className='w-full border-2 border-black p-8 bg-gray-100 mb-4'>
