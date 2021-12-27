@@ -12,8 +12,8 @@ const Features = () => {
             <ul>
                 {features.map(feature => {
                     const {id, image, title} = feature;
-                    return <div key={id} className='w-full border-2 border-black p-8 bg-gray-200 mb-4'>
-                        <img src={image} alt={title} />
+                    return <div key={id} className='w-full border-2 border-black p-8 bg-gray-100 mb-4'>
+                        <img src={image} alt={title} className='border-2 border-gray-400'/>
                         <h3 className='text-3xl tracking-wide font-semibold w-11/12 mt-8'>{title}</h3>
                         <button className='mt-8 w-44 text-xl hover:text-gray-500 text-left font-semibold text-orange-500'>Learn More <BsArrowRight className='inline-block' /></button>
                     </div>
