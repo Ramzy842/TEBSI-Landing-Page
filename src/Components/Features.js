@@ -24,10 +24,10 @@ const Features = () => {
       </p>
       <ul
         ref={featuresRef}
-        className="grid md:text-left mt-8 sm:gap-2 md:gap-8 md:grid-cols-2"
+        className="grid md:text-left mt-8 gap-2 md:gap-8 md:grid-cols-2 md:grid-rows-8"
       >
         {features.map((feature, index) => {
-          const { id, image, title, colorOnMouseEnter, colorOnMouseLeave } =
+          const { id, image, title, colorOnMouseEnter, colorOnMouseLeave, grid } =
             feature;
 
           return (
@@ -45,7 +45,7 @@ const Features = () => {
               }}
               key={id}
               ref={featureRef}
-              className={`border-2 parent-div  border-black p-8 bg-gray-100 mb-4`}
+              className={`border-2 parent-div  border-black p-8 bg-gray-100 mb-4 ${grid}`}
             >
               <img
                 src={image}

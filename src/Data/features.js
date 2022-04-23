@@ -5,6 +5,7 @@ const features = [
         title: "Management information systems",
         colorOnMouseLeave: "5px 5px 0px 0px #ff7731",
         colorOnMouseEnter: "10px 10px 0px 0px #ff7731",
+        grid: "md:row-start-1 md:row-end-5"
         
     },
     {
@@ -13,6 +14,7 @@ const features = [
         title: "Web design and development",
         colorOnMouseLeave: "5px 5px 0px 0px #ffc929",
         colorOnMouseEnter: "10px 10px 0px 0px #ffc929",
+        grid: "md:row-start-1 md:row-end-3"
     },
     {
         id: 3,
@@ -20,6 +22,7 @@ const features = [
         title: "Sales and marketing",
         colorOnMouseLeave: "5px 5px 0px 0px #003e77",
         colorOnMouseEnter: "10px 10px 0px 0px #003e77",
+        grid: "md:row-start-5 md:row-end-8"
     },
     {
         id: 4,
@@ -27,6 +30,7 @@ const features = [
         title: "Health services administration",
         colorOnMouseLeave: "5px 5px 0px 0px #ff7731",
         colorOnMouseEnter: "10px 10px 0px 0px #ff7731",
+        grid: "md:row-start-3 md:row-end-6"
     }
 ]
 

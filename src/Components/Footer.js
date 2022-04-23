@@ -12,7 +12,7 @@ import {
 const Footer = () => {
     return (
         <div >
-            <div className='grid mt-8 gap-8 p-4 grid-cols-2'>
+            <div className='grid mt-8 gap-8 p-4 grid-cols-2 md:grid-cols-4'>
                 {footer.map(data => {
                     const { id, title, subtitles } = data
                     return <div className='' key={id}>
@@ -28,9 +28,9 @@ const Footer = () => {
             </div>
 
 
-            <div className=' flex flex-col items-center'>
+            <div className=' flex flex-col md:flex-row md:justify-between items-center'>
                 <img className='w-24 h-24' src={logo} alt="logo" />
-                <div className='flex  w-4/5 justify-evenly p-4'>
+                <div className='flex  w-4/5 md:w-[40%] justify-evenly p-4'>
                     <div className='rounded-full border border-indigo-900 text-orange-500 hover:bg-indigo-900 p-3 '>
                         <a href="#"> <BsFacebook /></a>
                     </div>

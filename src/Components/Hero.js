@@ -7,13 +7,13 @@ const Hero = () => {
   const { navHeight } = GlobalContext();
   return (
     <div
-      className="text-center relative md:w-4/5 mx-auto lg:h-screen pt-8"
+      className="text-center relative md:w-4/5 mx-auto lg:h-screen lg:w-full md:pt-8"
       style={{ marginTop: `${navHeight}px` }}
     > 
       
-      <h1 className="text-4xl mx-auto w-4/5 p-2 mt-[120px]  font-semibold ">
+      <h1 className="text-4xl lg:text-7xl mx-auto w-4/5 lg:w-full p-2 mt-[120px] font-semibold ">
         Grow your audience. Improve your marketing{" "}
-        <Underline position="mx-auto" />{" "}
+        <Underline position="mx-auto mb-6" />{" "}
       </h1>
       <img src="./hero/1.png" className="hidden md:block absolute -z-10 top-[0px] left-[10px]" alt="" />
       <img src="./hero/2.png" className="hidden md:block absolute -z-10 top-[0px] right-[10px]" alt="" />
