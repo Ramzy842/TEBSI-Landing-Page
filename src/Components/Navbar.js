@@ -39,7 +39,7 @@ const Navbar = () => {
     >
       <img src={logo} className=" relative right-2 h-20" alt="logo" />
       <CgMenuRight className="w-7 h-7 lg:hidden" />
-      <div className="flex items-center w-3/4 justify-end">
+      <div className=" items-center w-3/4 justify-end hidden lg:flex">
         <ul className="flex w-2/3 justify-evenly">
           {navbar.map((link) => {
             const { name, id, links } = link;
