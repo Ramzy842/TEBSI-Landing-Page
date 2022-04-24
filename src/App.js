@@ -10,7 +10,7 @@ import TrustedBySection from "./Components/TrustedBySection";
 
 function App() {
   return (
-    <div >
+    <div className="lg:w-4/5 lg:mx-auto">
       <Header />
       <Features  />
       <TrustedBySection/>

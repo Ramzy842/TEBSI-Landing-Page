@@ -11,7 +11,7 @@ const Hero = () => {
       style={{ marginTop: `${navHeight}px` }}
     > 
       
-      <h1 className="text-4xl lg:text-7xl mx-auto w-4/5 lg:w-full p-2 mt-[120px] font-semibold ">
+      <h1 className="text-4xl lg:text-7xl mx-auto w-4/5 lg:w-full p-2 mt-[120px] font-semibold text-gray-900 ">
         Grow your audience. Improve your marketing{" "}
         <Underline position="mx-auto mb-6" />{" "}
       </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
       <img src="./hero/2.png" className="hidden md:block absolute -z-10 top-[0px] right-[10px]" alt="" />
       <img src="./hero/3.png" className="hidden md:block absolute -z-10 bottom-[20px] right-[10px]" alt="" />
       <img src="./hero/4.png" className="hidden md:block absolute -z-10 bottom-[20px] left-[10px]" alt="" />
-      <p className="w-full text-xl mt-2 font-medium px-3">
+      <p className="w-full md:w-5/6 lg:mx-auto text-xl mt-2 font-medium px-3">
         Learn where your audience struggle as they navigate your digital
         business. Pair this understanding of the individual experience with
         powerful quantitative insights to inform your digital decisions.
