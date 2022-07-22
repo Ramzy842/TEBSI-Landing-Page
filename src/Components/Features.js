@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Underline from "./Underline";
 import features from "../Data/features";
 import { BsArrowRight } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
+
 
 const Features = () => {
   const featureRef = useRef();
