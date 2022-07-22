@@ -4,7 +4,7 @@ import Underline from "./Underline";
 
 const Solutions = () => {
   return (
-    <div className="px-4 py-12 md:pb-0 text-center">
+    <div className="px-4 py-12 md:pb-0  text-center">
       <Underline position="mx-auto" />
       <h1 className="my-6 text-3xl md:text-4xl md:tracking-wider font-semibold tracking-wide w-11/12 md:w-full mx-auto">
         The best solutions in one software

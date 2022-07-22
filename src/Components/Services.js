@@ -5,7 +5,7 @@ import SmallUnderline from "./SmallUnderline";
 
 const Services = () => {
   return (
-    <ul className="md:text-center  text-white md:h-screen bg-blue-900 px-4 mx-0 py-16 ">
+    <ul className="md:text-center  text-white md:h-screen bg-blue-900 px-8 mx-0 flex flex-col justify-center">
       <Underline position="text-left md:mx-auto" />
       <h1 className="text-4xl my-8 font-semibold ">
         We propose quality solutions

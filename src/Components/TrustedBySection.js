@@ -8,7 +8,7 @@ const TrustedBySection = () => {
             <ul className='grid grid-cols-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4'>
                 {trustedBy.map(company => {
                     const {id, image} = company;
-                    return <li key={id} className='p-4 opacity-40 hover:opacity-100 cursor-pointer mx-auto'><img src={image} alt={id} /></li>
+                    return <li key={id} className='p-4 opacity-40 hover:opacity-100 cursor-pointer mx-auto transition'><img src={image} alt={id} /></li>
                 })}
             </ul>
         </div>
