@@ -16,6 +16,11 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, [])
+
+  useEffect(() => {
+    setTimeout(() => { AOS.refresh();}, 200)
+   
+  })
   
   return (
     <div className="overflow-x-hidden">
