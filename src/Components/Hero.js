@@ -14,7 +14,7 @@ const Hero = () => {
     >
       <div className="text-center container relative md:w-4/5 mx-auto lg:h-screen md:pt-8">
         <h1
-          className={`text-4xl lg:text-5xl xl:text-7xl mx-auto w-4/5 p-2  font-semibold text-gray-900 mt-24 lg:mt-16 z-20`}
+          className={`text-4xl lg:text-5xl xl:text-7xl mx-auto w-4/5 p-2  font-semibold text-gray-900 mt-24 lg:mt-32  z-20`}
           data-aos="fade-up"
           
         >
