@@ -1,19 +1,12 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React from "react";
 import { BsArrowRight } from "react-icons/bs";
-import GlobalContext from "../Context";
+
 
 import Underline from "./Underline";
 
 const Hero = () => {
-  const { navHeight } = GlobalContext();
-  const [navbarHeight, setNavbarHeight] = useState();
-  useEffect(() => {
-    if (navHeight) {
-      setNavbarHeight(navHeight);
-    }
-  }, [navHeight]);
-
+  
+  
   return (
     <div
       
@@ -21,9 +14,9 @@ const Hero = () => {
     >
       <div className="text-center container relative md:w-4/5 mx-auto lg:h-screen md:pt-8">
         <h1
-          className={`text-4xl lg:text-5xl xl:text-7xl mx-auto w-4/5 p-2  font-semibold text-gray-900 lg:mt-12 z-20`}
+          className={`text-4xl lg:text-5xl xl:text-7xl mx-auto w-4/5 p-2  font-semibold text-gray-900 mt-24 mt-12 z-20`}
           data-aos="fade-up"
-          style={{ marginTop: navbarHeight + "px"}}
+          
         >
           Grow your audience. Improve your marketing{" "}
           <Underline position="mx-auto mb-6" />{" "}
