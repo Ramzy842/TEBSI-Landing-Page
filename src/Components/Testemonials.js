@@ -4,7 +4,7 @@ import testemonial from "../images/testemonial.jpg";
 import { BsArrowRight } from "react-icons/bs";
 const Testemonials = () => {
   return (
-    <div className=" px-4 mt-8">
+    <div className=" px-4 mt-8 container mx-auto max-w-7xl">
       <Underline position="mx-auto mb-8" />
       <p className="text-center text-3xl font-bold">
         "It is really refreshing to work with Deva which is truly helpful in the

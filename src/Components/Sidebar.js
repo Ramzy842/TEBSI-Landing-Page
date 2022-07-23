@@ -12,7 +12,7 @@ const Sidebar = ({ setMobileMenu }) => {
   });
 
   return (
-    <div className="bg-white w-4/5 h-screen absolute top-0 left-0 bottom-0">
+    <div className="bg-white w-4/5 h-screen absolute top-0 left-0 bottom-0" data-aos="fade-right">
       <div className="border-b-2 border-gray-300 flex justify-end">
         <VscClose
           className="text-3xl m-3 cursor-pointer"

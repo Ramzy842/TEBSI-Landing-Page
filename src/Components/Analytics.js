@@ -1,11 +1,11 @@
 import React from "react";
 import stats from "../images/stats.png";
-import history from "../images/history.png";
+
 import Underline from "./Underline";
 import { BsArrowRight } from "react-icons/bs";
 const Analytics = () => {
   return (
-    <div className=" p-4">
+    <div className=" p-4 container mx-auto max-w-7xl" data-aos="fade-up">
       <Underline position="hidden md:block mx-auto" />
       <h1 className="w-11/12 mt-8 mb-4 font-semibold text-5xl leading-12 hidden md:block mx-auto text-center">
         Overview of your progress and manage customers base

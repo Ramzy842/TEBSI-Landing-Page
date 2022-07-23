@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
     return (
-        <div >
+        <div className='container mx-auto max-w-7xl' >
             <div className='grid mt-8 gap-8 p-4 grid-cols-2 md:grid-cols-4'>
                 {footer.map(data => {
                     const { id, title, subtitles } = data

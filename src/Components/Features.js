@@ -1,15 +1,14 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import Underline from "./Underline";
 import features from "../Data/features";
 import { BsArrowRight } from "react-icons/bs";
-
 
 const Features = () => {
   const featureRef = useRef();
   const featuresRef = useRef();
 
   return (
-    <div className="px-4 md:text-center ">
+    <div className="px-4 md:text-center container mx-auto max-w-7xl">
       <Underline position="md:mx-auto mb-2" />
       <h3 className="text-3xl md:text-4xl tracking-widest font-semibold  w-11/12 md:w-full mt-8">
         Software for every kind of business
@@ -36,6 +35,7 @@ const Features = () => {
 
           return (
             <div
+            data-aos="fade-up"
               onMouseEnter={() => {
                 featuresRef.current.children[index].style.boxShadow =
                   colorOnMouseEnter;

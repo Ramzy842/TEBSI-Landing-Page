@@ -37,7 +37,7 @@ const Navbar = () => {
       ref={navRef}
       className={`${
         isMoved && "shadow-lg"
-      } bg-white fixed top-0 left-0 right-0  z-50 transition`}
+      } bg-white fixed top-0 left-0 right-0 w-screen z-50 transition`}
       onMouseEnter={(e) =>
         (!e.target.classList.contains("link") ||
           !e.target.classList.contains("menu")) &&

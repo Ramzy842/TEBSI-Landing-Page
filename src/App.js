@@ -7,11 +7,18 @@ import Solutions from "./Components/Solutions";
 import Subscriptions from "./Components/Subscriptions";
 import Testemonials from "./Components/Testemonials";
 import TrustedBySection from "./Components/TrustedBySection";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   
   return (
-    <div className="lg:w-4/5 lg:mx-auto ">
+    <div className="overflow-x-hidden">
       <Header />
       <Features  />
       <TrustedBySection/>
