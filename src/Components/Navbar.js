@@ -17,7 +17,9 @@ const Navbar = () => {
   const { setNavHeight } = GlobalContext();
   const navRef = useRef();
   useEffect(() => {
+    
     setNavHeight(navRef.current.getBoundingClientRect().height);
+    
   }, [setNavHeight]);
 
   const handleScroll = useCallback(() => {

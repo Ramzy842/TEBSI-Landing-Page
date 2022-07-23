@@ -7,7 +7,7 @@ import Underline from "./Underline";
 
 const Hero = () => {
   const { navHeight } = GlobalContext();
-  const [navbarHeight, setNavbarHeight] = useState(0);
+  const [navbarHeight, setNavbarHeight] = useState();
   useEffect(() => {
     if (navHeight) {
       setNavbarHeight(navHeight);
@@ -17,13 +17,14 @@ const Hero = () => {
   return (
     navHeight && (
       <div
-        style={{paddingTop: navbarHeight + "px" }}
+        
         className={`bg-white w-full`}
       >
         <div className="text-center container relative md:w-4/5 mx-auto lg:h-screen md:pt-8">
           <h1
             className={`text-4xl lg:text-5xl xl:text-7xl mx-auto w-4/5 p-2  font-semibold text-gray-900 lg:mt-12 z-20`}
             data-aos="fade-up"
+            style={{paddingTop: navbarHeight + "px" }}
           >
             Grow your audience. Improve your marketing{" "}
             <Underline position="mx-auto mb-6" />{" "}
